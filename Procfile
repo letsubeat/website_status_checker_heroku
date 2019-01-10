@@ -1,1 +1,1 @@
-'clock: checker.py' 
+clock: checker.py
