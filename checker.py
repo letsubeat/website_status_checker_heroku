@@ -34,7 +34,7 @@ def checker():
                                 now_tz_seoul.strftime("%Y-%m-%d %H:%M:%S"))
             send_message(status_message, TELEGRAM_BOT_TOKEN_KEY, status_recive_channel)
         else:
-            send_message("heroku code test", TELEGRAM_BOT_TOKEN_KEY, status_recive_channel)
+            return 'site status all green'
     except Exception:
         status_message = '%s site connect refused. now %s' % (target_site_url, now_tz_seoul.strftime("%Y-%m-%d %H:%M:%S"))
         send_message(status_message, TELEGRAM_BOT_TOKEN_KEY, status_recive_channel)
