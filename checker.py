@@ -8,13 +8,13 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 ERROR_CHECK_CODE = ['4', '5']
 
 # telegram bot token
-TELEGRAM_BOT_TOKEN_KEY = '742478084:AAHh3xU_RfPV29T4DK_0M3h5T55F5fnmBsU'
+TELEGRAM_BOT_TOKEN_KEY = ''
 
 # telegram channel
-TELEGRAM_CHAT = '@bima_status'
+TELEGRAM_CHAT = ''
 
 # site url
-SITE_URL = 'https://www.bima.kr'
+SITE_URL = ''
 
 
 sched = BlockingScheduler()
